@@ -12,7 +12,7 @@ use \InvalidArgumentException;
 
 class Image extends Gravatar
 {
-    const SECURE_URL = 'https://secure.gravatar.com/';
+    const SECURE_URL = 'https://avatar.gsvnet.nl/';
 
     /**
      * @var integer The size to use for avatars.

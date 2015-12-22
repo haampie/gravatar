@@ -13,7 +13,7 @@ use forxer\Gravatar\Profile as GravatarProfile;
 
 class Gravatar
 {
-    const URL = 'http://www.gravatar.com/';
+    const URL = 'http://avatar.gsvnet.nl/';
 
     /**
      * Return the Gravatar image URL based on the provided email address.
