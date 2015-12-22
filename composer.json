@@ -1,5 +1,5 @@
 {
-	"name" : "forxer/gravatar",
+	"name" : "haampie/gravatar",
 	"description" : "A library providing easy gravatar integration.",
 	"keywords" : [
 		"gravatar"
@@ -7,9 +7,9 @@
 	"type" : "library",
 	"license" : "MIT",
 	"authors" : [{
-			"name" : "Vincent Garnier",
-			"email" : "forxer@gmail.org",
-			"homepage" : "http://forx.fr"
+			"name" : "Harmen Stoppels",
+			"email" : "harmenstoppels@gmail.com",
+			"homepage" : "http://harmenstoppels.nl"
 		}
 	],
 	"require" : {
@@ -17,12 +17,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"forxer\\Gravatar\\" : "src"
+			"haampie\\Gravatar\\" : "src"
 		}
 	},
 	"minimum-stability" : "dev",
 	"support" : {
-		"issues" : "https://github.com/forxer/gravatar/issues",
-		"email" : "forxer@gmail.com"
+		"issues" : "https://github.com/haampie/gravatar/issues",
+		"email" : "harmenstoppels@gmail.com"
 	}
 }
