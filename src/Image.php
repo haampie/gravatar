@@ -1,12 +1,12 @@
 <?php
 /*
- * This file is part of forxer\Gravatar.
+ * This file is part of haampie\Gravatar.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace forxer\Gravatar;
+namespace haampie\Gravatar;
 
 use \InvalidArgumentException;
 
@@ -99,7 +99,7 @@ class Image extends Gravatar
      * @param integer $size    The avatar size to use, must be less than 2048 and greater than 0.
      * @param boolean $bForceDefault Force the default image to be always load.
      * @throws \InvalidArgumentException
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function setSize($iSize = null)
     {
@@ -135,7 +135,7 @@ class Image extends Gravatar
      *
      * @param string $sDefaultImage The default image to use. Use a valid image URL, or a recognized gravatar "default".
      * @throws \InvalidArgumentException
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function setDefaultImage($sDefaultImage = null, $bForce = false)
     {
@@ -185,7 +185,7 @@ class Image extends Gravatar
     /**
      * Force the default image to be always load.
      *
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function enableForceDefault()
     {
@@ -197,7 +197,7 @@ class Image extends Gravatar
     /**
      * Do not force the default image to be always load.
      *
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function disableForceDefault()
     {
@@ -221,7 +221,7 @@ class Image extends Gravatar
      *
      * @param string $sRating The maximum rating to use for avatars.
      * @throws \InvalidArgumentException
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function setMaxRating($sRating = null)
     {
@@ -264,7 +264,7 @@ class Image extends Gravatar
      *
      * @param string $sExtension The avatar extension to use.
      * @throws \InvalidArgumentException
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function setExtension($sExtension = null)
     {
@@ -303,7 +303,7 @@ class Image extends Gravatar
     /**
      * Enable the use of the secure protocol for URLs.
      *
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function enableSecure()
     {
@@ -315,7 +315,7 @@ class Image extends Gravatar
     /**
      * Disable the use of the secure protocol for URLs.
      *
-     * @return \forxer\Gravatar\Image The current Gravatar Image instance.
+     * @return \haampie\Gravatar\Image The current Gravatar Image instance.
      */
     public function disableSecure()
     {

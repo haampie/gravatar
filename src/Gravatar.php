@@ -1,15 +1,15 @@
 <?php
 /*
- * This file is part of forxer\Gravatar.
+ * This file is part of haampie\Gravatar.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace forxer\Gravatar;
+namespace haampie\Gravatar;
 
-use forxer\Gravatar\Image as GravatarImage;
-use forxer\Gravatar\Profile as GravatarProfile;
+use haampie\Gravatar\Image as GravatarImage;
+use haampie\Gravatar\Profile as GravatarProfile;
 
 class Gravatar
 {
